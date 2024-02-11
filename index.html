@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunskapskontroll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="border">
+    <div>
+    <h1>Skapa din egna kontaktlista</h1>
+<form id="contactForm">
+<input type="text" id="userInputName" name="userInputName" placeholder="Namn" autocomplete="name">
+<input type="text" id="userInputPhone" name="userInputPhone" placeholder="Telefon" autocomplete="tel">            
+<button id="btn-skapa">Skapa</button>
+ <div id="error-message"></div>
+</form>
+</div>
+<div>
+<h2>Kontaktlista</h2>
+<ul id="contactList">
+</ul>
+</div>
+</div>
+<div>
+<script src="main.js"></script>
+</body>
+</html>
